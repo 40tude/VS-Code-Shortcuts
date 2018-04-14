@@ -3,6 +3,23 @@
 - Show/Hide left bar : CTRL + B 
 - New instance of VS Code : CTRL + SHIFT + N
 
+## Switch focus between editor and integrated terminal
+- Open keyboard shortcuts (CTRL+K CTRL+S)
+- Click on the link "keybindings.json" at the top of the page
+- Add the lines below 
+- Doing so, under Windows, you can then open a terminal with CTRL+ù. Later on, you switch back and forth between the editor and the terminal with the same keyboard shortcut.
+```
+// Placez vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
+[
+  { "key": "ctrl+oem_3", 
+    "command": "workbench.action.terminal.focus"
+  },
+  { "key": "ctrl+oem_3", 
+    "command": "workbench.action.focusActiveEditorGroup", 
+    "when": "terminalFocus"
+  }  
+]
+```
 ## Multi cursors
 - Alt + click to add cursor
 - CTRL + ALT + Down or Up to add cursor
