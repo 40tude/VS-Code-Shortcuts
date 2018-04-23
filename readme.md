@@ -21,8 +21,7 @@
 ]
 ```
 ## Multi cursors
-- Alt + click to add cursor
-- CTRL + ALT + Down or Up to add cursor
+- Ctrl + Alt + Down to add a cursor below
 - ESC to exit the mode
 
 ## C/C++
