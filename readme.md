@@ -27,8 +27,8 @@
 
 ## C/C++
 - Format C++ code (C/C++ extension must be insalled) : ALT + SHIFT + F
-- Comment a line : CTRL (K, C)
-- Uncomment a line : CTRL (K, U)
+- Comment a line   : put the cursor on the line then CTRL (K, C)
+- Uncomment a line : put the cursor on the line then CTRL (K, U)
 - Comment multiple lines : Select the lines then CTRL (K, C)
 - Peek definition Alt F12
 - Goto definition F12
@@ -37,8 +37,9 @@
 
 ## Line
 - Cut, copy, delete a line : CTRL + C, CTRL + V, CTRL + X. No need to select the line. Just put the cursor somewhere on the line
-- Move a line up and down : Alt + Up, Alt + Down
-- Move a selected block up and down : Alt + Up, Alt + Down
+- Move a line up and down  : Alt + Up, Alt + Down
+- Copy a line up or down   : Shift + Alt + Up, Shift + Alt + Down
+- Move a selected block of lines up and down : Alt + Up, Alt + Down
 
 ## Left bar
 - CTRL + B
